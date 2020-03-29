@@ -1,0 +1,96 @@
+
+TimberWolfSC version:v4.3a date:Mon Jan 25 18:50:36 EST 1988
+Standard Cell Placement and Global Routing Program
+Authors: Carl Sechen, Bill Swartz
+          Yale University
+
+
+NOTE: Restart file .rs2 not used
+
+TimberWolf will perform a global route step
+rowSep: 1.000000
+feedThruWidth: 4
+
+******************
+BLOCK DATA
+block:1 desire:361
+block:2 desire:361
+Total Desired Length: 722
+total cell length: 720
+total block length: 720
+block x-span:360  block y-span:78
+implicit feed thru range: -360
+Using default value of bin.penalty.control:1.000000
+numBins automatically set to:13
+binWidth = average_cell_width + 0 sigma= 28
+average_cell_width is:27
+standard deviation of cell length is:28.7228
+TimberWolfSC starting from the beginning
+
+
+
+THIS IS THE ROUTE COST OF THE ORIGINAL PLACEMENT: 3029
+The number of nets with 1 pin is 1
+The number of nets with 2 pin is 17
+The number of nets with 3 pin is 1
+The number of nets with 4 pin is 8
+The number of nets with 5 pin is 0
+The number of nets with 6 pin is 0
+The number of nets with 7 pin is 0
+The number of nets with 8 pin is 0
+The number of nets with 9 pin is 0
+The number of nets with 10 pin or more is 2
+
+New Cost Function: Initial Horizontal Cost:3659
+New Cost Function: FEEDS:0   MISSING_ROWS:-86
+
+bdxlen:382  bdylen:78
+l:0  t:78  r:382  b:0
+
+
+
+THIS IS THE ROUTE COST OF THE CURRENT PLACEMENT: 3029
+
+
+
+THIS IS THE PENALTY OF THE CURRENT PLACEMENT: 226
+
+The rand generator seed was at utemp() : 1
+
+
+  tempfile[0][0] = 0.982500    tempfile[0][1] = 90.000000
+  tempfile[1][0] = 0.915000    tempfile[1][1] = 20.000000
+  tempfile[2][0] = 0.700000    tempfile[2][1] = 10.000000
+  tempfile[3][0] = 0.100000    tempfile[3][1] = 0.000000
+
+  I   T  fds     Wire Penalty P_lim Epct binC rowC  acc  s/p early  FDs    MRs
+  1 500    0     5277     996   270 64.3  1.0  3.0 82.7 28.4  0.0     0     92
+  2 491    0     4016     662   988  0.0  0.5  2.3 76.3 20.8  0.0     0     94
+  3 482    0     4444     294   543  0.0  0.5  1.6 69.6 14.2  0.0     0     88
+  4 474    0     3240     489   457  0.0  0.5  0.6 61.5 18.5  0.0     0    100
+  5 465   14     4229     381   387  0.0  0.5  0.5 53.6 23.1  0.0     0    100
+  6 457   14     4810     390   339  0.0  0.5  0.5 48.2 26.4  0.0     0    100
+  7 449   14     4020     345   298  0.0  0.5  0.5 46.2 24.8  0.0     0    102
+  8 441   14     3912     288   338  0.0  0.5  0.5 52.7 27.2  0.0     0     96
+  9 434   14     3356     323   356  0.0  0.5  0.5 47.5 32.1  0.0     0    108
+ 10 426   14     3739     378   377  0.0  0.5  0.5 49.2 26.1  0.0     0    104
+ 11 419   14     3936     290   331  0.0  0.5  0.5 49.0 33.6  0.0     0    104
+ 12 411   14     4305     368   314  0.0  0.5  0.5 47.2 19.5  0.0     0     98
+ 13 404   14     4150     535   300  0.0  0.5  0.5 47.9 23.0  0.0     0     98
+ 14 397   14     3460     366   327  0.0  0.5  0.5 48.3 26.4  0.0     0    100
+ 15 390   14     4454     343   339  0.0  0.5  0.5 45.9 25.7  0.0     0    104
+ 16 383   14     3814     519   314  0.0  0.5  0.5 43.0 27.0  0.0     0    100
+ 17 376   14     4106     488   338  0.0  0.5  0.5 45.2 30.7  0.0     0     98
+ 18 370   14     3967     346   300  0.0  0.5  0.5 48.0 23.3  0.0     0    102
+ 19 363   14     3323     609   278  0.0  0.5  0.5 42.1 25.7  0.0     0    106
+ 20 357   14     4207     451   308  0.0  0.6  0.5 45.9 23.8  0.0     0    104
+ 21 351   14     3941     351   293  0.0  0.5  0.5 42.9 19.6  0.0     0    104
+ 22 345   14     4459     460   327  0.0  0.5  0.5 39.3 19.5  0.0     0     94
+ 23 339   14     4109     436   301  0.0  0.5  0.5 54.7 25.5  0.0     0    100
+ 24 333   14     4272     399   305  0.0  0.5  0.5 38.9 24.7  0.0     0    104
+ 25 327   14     4348     467   273  0.0  0.5  0.5 48.8 19.9  0.0     0    102
+ 26 321   14     2849     520   279  0.0  0.6  0.5 39.3 21.3  0.0     0    106
+ 27 315   14     3767     489   300  0.0  0.6  0.5 37.3 27.6  0.0     0    102
+ 28 310   14     3978     364   264  0.0  0.6  0.5 40.6 31.1  0.0     0    104
+ 29 304   14     3815     524   262  0.0  0.5  0.5 37.7 28.1  0.0     0    104
+ 30 299   14     4586     414   339  0.0  0.6  0.5 41.6 20.1  0.0     0    104

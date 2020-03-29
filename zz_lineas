@@ -1,0 +1,27 @@
+sim-outorder -config r1.txt -redir:sim w_applu1.txt 1/applu/exe/applu.exe < 1/applu/data/test/applu.in > applu1.out 2> applu1.err
+
+
+sim-outorder -config r1.txt -redir:sim w1_crafty.txt 1/crafty/exe/crafty.exe < 1/crafty/data/test/crafty.in > crafty.out 2> crafty.err
+
+
+sim-outorder -config r1.txt -redir:sim w1_gzip.txt 1/gzip/exe/gzip.exe 1/gzip/data/test/input.compressed 2 > gzip.out 2> gzip.err
+
+
+sim-outorder -config r1.txt -redir:sim w1_twolf.txt 1/twolf/exe/twolf.exe 1/twolf/data/test/test > twolf.out 2> twolf.err
+
+sim-outorder -config r2.txt -redir:sim w2_twolf.txt 1/twolf/exe/twolf.exe 1/twolf/data/test/test > twolf.out 2> twolf.err
+
+sim-outorder -config r3.txt -redir:sim w3_twolf.txt 1/twolf/exe/twolf.exe 1/twolf/data/test/test > twolf.out 2> twolf.err
+
+sim-outorder -config r4.txt -redir:sim w4_twolf.txt 1/twolf/exe/twolf.exe 1/twolf/data/test/test > twolf.out 2> twolf.err
+
+sim-outorder -config r5.txt -redir:sim w5_twolf.txt 1/twolf/exe/twolf.exe 1/twolf/data/test/test > twolf.out 2> twolf.err
+
+
+
+
+DESDE LA CARPETA /vortex/data/test/
+sim-outorder -config ../../../../r5.txt -redir:sim ../../../../w5_vortex.txt ../../exe/vortex.exe lendian.raw > ../../../../vortex.out2 2> ../../../../vortex.err
+
+
+cambiar  rX   wX_etcetcetc

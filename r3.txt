@@ -1,0 +1,10 @@
+-fetch:ifqsize 8
+-decode:width 8
+-issue:width 8
+-commit:width 8
+-mem:lat 300 2
+-mem:width 32
+-ruu:size 16
+-lsq:size 8
+-fastfwd 50000000
+-max:inst 10000000
